@@ -21,7 +21,7 @@ git config --global gpg.format ssh
 ```
 touch ~/.gitallowedsigners
 echo $PATH_TO_YOUR_PUBLIC_KEY > ~/.gitallowedsigners
-git config --global git config gpg.ssh.allowedSignersFile ~/.gitallowedsigners
+git config --global gpg.ssh.allowedSignersFile ~/.gitallowedsigners
 ```
 
 #### Showing signatures in logs
